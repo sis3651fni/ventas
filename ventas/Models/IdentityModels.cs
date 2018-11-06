@@ -29,5 +29,7 @@ namespace ventas.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ventas.Models.producto> productoes { get; set; }
     }
 }
